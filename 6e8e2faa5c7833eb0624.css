@@ -1,0 +1,595 @@
+Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):
+HookWebpackError: Cannot find module '../'
+    at tryRunOrWebpackError (E:\Fornt-End\Tebas\node_modules\webpack\lib\HookWebpackError.js:86:9)
+    at __webpack_require_module__ (E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5480:12)
+    at __webpack_require__ (E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5427:18)
+    at E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5514:20
+    at symbolIterator (E:\Fornt-End\Tebas\node_modules\neo-async\async.js:3485:9)
+    at done (E:\Fornt-End\Tebas\node_modules\neo-async\async.js:3527:9)
+    at Hook.eval [as callAsync] (eval at create (E:\Fornt-End\Tebas\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5402:43
+    at symbolIterator (E:\Fornt-End\Tebas\node_modules\neo-async\async.js:3482:9)
+    at timesSync (E:\Fornt-End\Tebas\node_modules\neo-async\async.js:2297:7)
+-- inner error --
+Error: Cannot find module '../'
+    at webpackMissingModule (E:\Fornt-End\Tebas\node_modules\css-loader\dist\cjs.js!E:\Fornt-End\Tebas\src\css\style.css:16:131)
+    at Module.<anonymous> (E:\Fornt-End\Tebas\node_modules\css-loader\dist\cjs.js!E:\Fornt-End\Tebas\src\css\style.css:16:209)
+    at E:\Fornt-End\Tebas\node_modules\webpack\lib\javascript\JavascriptModulesPlugin.js:518:10
+    at Hook.eval [as call] (eval at create (E:\Fornt-End\Tebas\node_modules\tapable\lib\HookCodeFactory.js:19:10), <anonymous>:7:1)
+    at E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5482:39
+    at tryRunOrWebpackError (E:\Fornt-End\Tebas\node_modules\webpack\lib\HookWebpackError.js:81:7)
+    at __webpack_require_module__ (E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5480:12)
+    at __webpack_require__ (E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5427:18)
+    at E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5514:20
+    at symbolIterator (E:\Fornt-End\Tebas\node_modules\neo-async\async.js:3485:9)
+
+Generated code for E:\Fornt-End\Tebas\node_modules\css-loader\dist\cjs.js!E:\Fornt-End\Tebas\src\css\style.css
+  1 | __webpack_require__.r(__webpack_exports__);
+  2 | /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+  3 | /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+  4 | /* harmony export */ });
+  5 | /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ "E:\\Fornt-End\\Tebas\\node_modules\\css-loader\\dist\\runtime\\noSourceMaps.js");
+  6 | /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+  7 | /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "E:\\Fornt-End\\Tebas\\node_modules\\css-loader\\dist\\runtime\\api.js");
+  8 | /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+  9 | /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "E:\\Fornt-End\\Tebas\\node_modules\\css-loader\\dist\\runtime\\getUrl.js");
+ 10 | /* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
+ 11 | // Imports
+ 12 | 
+ 13 | 
+ 14 | 
+ 15 | var ___CSS_LOADER_URL_IMPORT_0___ = /* asset import */ new __webpack_require__.U(__webpack_require__(/*! ../img/bg_features.png */ "asset/resource|E:\\Fornt-End\\Tebas\\src\\img\\bg_features.png"));
+ 16 | var ___CSS_LOADER_URL_IMPORT_1___ = /* asset import */ new __webpack_require__.U(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+ 17 | var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+ 18 | var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+ 19 | var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
+ 20 | // Module
+ 21 | ___CSS_LOADER_EXPORT___.push([module.id, `.tebas-logo {
+ 22 |   font-family: 'Tajawal', sans-serif;
+ 23 |   display: flex;
+ 24 |   align-items: center;
+ 25 |   direction: rtl;
+ 26 |   gap: 0.5rem;
+ 27 |   text-decoration: none;
+ 28 | }
+ 29 | 
+ 30 | /* التيشيرت */
+ 31 | .t-shirt-icon {
+ 32 |   font-size: 2.2rem;
+ 33 |   color: #0d6efd;
+ 34 |   animation: dropIn 0.8s ease-out forwards;
+ 35 |   transform: translateY(-30px);
+ 36 |   opacity: 0;
+ 37 | }
+ 38 | 
+ 39 | @keyframes dropIn {
+ 40 |   to {
+ 41 |     transform: translateY(0);
+ 42 |     opacity: 1;
+ 43 |   }
+ 44 | }
+ 45 | 
+ 46 | /* الكلمة تظهر تدريجيًا */
+ 47 | .tebas-word {
+ 48 |   position: relative;
+ 49 |   font-size: 2.8rem;
+ 50 |   font-weight: 700;
+ 51 |   color: #111;
+ 52 |   overflow: hidden;
+ 53 |   line-height: 1;
+ 54 | }
+ 55 | 
+ 56 | .reveal-text {
+ 57 |   display: inline-block;
+ 58 |   background: linear-gradient(to left, #0d6efd, #111);
+ 59 |   -webkit-background-clip: text;
+ 60 |   background-clip: text;
+ 61 |   color: transparent;
+ 62 |   animation: revealText 2.5s ease-out 0.7s forwards;
+ 63 |   transform: translateX(100%);
+ 64 |   opacity: 0;
+ 65 | }
+ 66 | 
+ 67 | @keyframes revealText {
+ 68 |   0% {
+ 69 |     transform: translateX(100%);
+ 70 |     opacity: 0;
+ 71 |   }
+ 72 | 
+ 73 |   60% {
+ 74 |     opacity: 1;
+ 75 |   }
+ 76 | 
+ 77 |   100% {
+ 78 |     transform: translateX(0);
+ 79 |     opacity: 1;
+ 80 |   }
+ 81 | }
+ 82 | 
+ 83 | /* لمعة تمر بعد الظهور */
+ 84 | .shine {
+ 85 |   position: absolute;
+ 86 |   top: 0;
+ 87 |   bottom: 0;
+ 88 |   right: 0;
+ 89 |   width: 100%;
+ 90 |   background: linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.4) 50%, transparent 100%);
+ 91 |   transform: translateX(-100%);
+ 92 |   animation: shineMove 1.8s ease-in-out 3s forwards;
+ 93 |   pointer-events: none;
+ 94 | }
+ 95 | 
+ 96 | @keyframes shineMove {
+ 97 |   to {
+ 98 |     transform: translateX(100%);
+ 99 |   }
+100 | }
+101 | 
+102 | .custom-navbar {
+103 |   border-bottom: 3px solid #F7F8F3;
+104 |   width: 100%;
+105 |   background-color: #FFF;
+106 |   padding: 15px 0;
+107 | }
+108 | 
+109 | .navbar-header {
+110 |   display: flex;
+111 |   align-items: center;
+112 |   /* جعل العناصر في نفس المستوى الرأسي */
+113 |   justify-content: space-between;
+114 |   /* توزيع العناصر */
+115 |   flex-wrap: wrap;
+116 |   /* في حال الشاشة ضيقة */
+117 |   gap: 20px;
+118 | 
+119 | }
+120 | 
+121 | body {
+122 |   font-family: 'Tajawal', sans-serif;
+123 |   font-size: 14px;
+124 |   line-height: 1.5;
+125 |   color: black;
+126 | }
+127 | 
+128 | .custom-form-control {
+129 |   border: 1px solid #ced4da;
+130 |   box-shadow: none;
+131 |   border-radius: 2px;
+132 |   color: #333;
+133 |   padding: 6px 12px;
+134 |   min-width: 200px;
+135 |   font-size: 14px;
+136 |   transition: border-color 0.3s ease;
+137 | }
+138 | 
+139 | .custom-form-control:focus {
+140 |   border-color: #0d6efd;
+141 |   outline: none;
+142 |   box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.15);
+143 | }
+144 | 
+145 | 
+146 | 
+147 | .custom-btn.categories  {
+148 |   border: 1px solid #ced4da;
+149 |   color: #333;
+150 |   border-right: 0 !important;
+151 |   border-radius: 2px;
+152 |   padding: 6px 12px;
+153 |   font-size: 14px;
+154 |   height: 38px;
+155 |   transition: all 0.3s ease;
+156 | }
+157 | 
+158 | .custom-btn.categories:hover {
+159 |   background-color: #eaf2ff;
+160 |   color: #0d6efd;
+161 | }
+162 | 
+163 | .custom-dropdown-menu {
+164 |   border-radius: 6px;
+165 |   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+166 |   background-color: #fff;
+167 |   min-width: 180px;
+168 |   padding: 8px 0;
+169 |   border: none;
+170 | }
+171 | 
+172 | .custom-dropdown-menu li {
+173 |   padding: 0;
+174 | }
+175 | 
+176 | .custom-dropdown-menu li label {
+177 |   display: block;
+178 |   padding: 8px 16px;
+179 |   margin: 0;
+180 |   color: #333;
+181 |   font-size: 14px;
+182 |   cursor: pointer;
+183 |   transition: background-color 0.3s ease, color 0.3s ease;
+184 | }
+185 | 
+186 | .custom-dropdown-menu li label:hover {
+187 |   background-color: #eaf2ff;
+188 |   color: #0d6efd;
+189 | }
+190 | 
+191 | .search-btn {
+192 |   background-color: #0d6efd;
+193 |   border-color: #0d6efd;
+194 |   color: #fff;
+195 |   padding: 5px 15px 7px;
+196 |   height: 38px;
+197 |   width: 65px;
+198 |   border-radius: 0;
+199 |   font-weight: 700;
+200 |   font-size: 14px;
+201 | }
+202 | 
+203 | .search-btn:hover,
+204 | .search-btn:active,
+205 | .search-btn:focus,
+206 | .search-btn:active:focus,
+207 | .search-btn:active:hover {
+208 |   background-color: #0056b3;
+209 |   border-color: #0056b3;
+210 |   color: #fff;
+211 | 
+212 | }
+213 | 
+214 | .navbar-nav .nav-link {
+215 |   color: #333;
+216 |   font-size: 14px;
+217 |   font-weight: 500;
+218 |   padding: 12px 16px;
+219 |   transition: color 0.3s ease, background-color 0.3s ease;
+220 | }
+221 | 
+222 | .navbar-nav .nav-link:hover {
+223 |   color: #0d6efd;
+224 |   background-color: #f2f6ff;
+225 |   border-radius: 4px;
+226 | }
+227 | 
+228 | .custom-navbar .navbar-nav li.active a.nav-link {
+229 |   color: #0d6efd;
+230 |   font-weight: 700;
+231 |   border-bottom: 2px solid #0d6efd;
+232 |   background-color: transparent;
+233 | }
+234 | 
+235 | .custom-navbar .navbar-nav li.active:hover a.nav-link {
+236 |   background-color: #eaf2ff;
+237 | }
+238 | 
+239 | .custom-navbar .btn-icon {
+240 |   padding: 8px 12px;
+241 |   color: #777;
+242 |   border: 1px solid #ddd;
+243 |   background-color: transparent;
+244 |   margin-right: 10px;
+245 |   border-radius: 6px; 
+246 |   font-size: 1.2rem;
+247 | }
+248 | 
+249 | 
+250 | 
+251 | .custom-navbar .btn-icon:hover {
+252 |   background-color: #eaf2ff;
+253 |   border-color: #0d6efd;
+254 |   color: #0d6efd;
+255 |   transition: all 0.3s ease;
+256 | }
+257 | 
+258 | 
+259 | /* قسم عرض الشرائح */
+260 | #carousel-featured {
+261 |   background-color: #F7F8F3;
+262 |   height: 400px;
+263 | }
+264 | 
+265 | 
+266 | #carousel-featured .carousel-item .col-4 {
+267 |   height: 100%;
+268 |   display: flex;
+269 |   align-items: center;
+270 |   justify-content: center;
+271 | }
+272 | 
+273 | #carousel-featured .carousel-item img {
+274 |   height: 375px;
+275 |   padding-top: 25px;
+276 | }
+277 | #carousel-featured .product-details {
+278 |   border: 1px solid #DDDDD8;
+279 |   padding: 20px;
+280 |   position: relative;
+281 |   top: 50px;
+282 |   height: 200px;
+283 |   background-color: #F7F8F3;
+284 |   
+285 | }
+286 | 
+287 | #carousel-featured .product-details h1 {
+288 |   font-weight: 700;
+289 |   font-size: 175%;
+290 |   margin-top: 18px;
+291 | }
+292 | 
+293 | #carousel-featured .product-details .product-category {
+294 |     border: 1px solid #E0E0E0;
+295 |   padding: 8px 12px;
+296 |   position: absolute;
+297 |   top: -10px;
+298 |   right: -10px;
+299 |   background-color: #F7F8F3; 
+300 |   color: #888888; 
+301 |   font-size: 14px;
+302 |   border-radius: 4px;
+303 | 
+304 | }
+305 | 
+306 | .sunglasses-img {
+307 |   transform: translateX(30px); 
+308 |   
+309 | }
+310 | 
+311 | .ribbon {
+312 |   width: 150px;
+313 |   height: 150px;
+314 |   overflow: hidden;
+315 |   position: absolute;
+316 |   top: 0px;
+317 |   left: 0px;
+318 |   z-index: 10;
+319 | }
+320 | 
+321 | .ribbon span {
+322 |   position: absolute;
+323 |   display: block;
+324 |   width: 200px;
+325 |   padding: 10px 0;
+326 |   background: #dc3545; /* لون الشارة */
+327 |   color: white;
+328 |   font-weight: bold;
+329 |   text-align: center;
+330 |   transform: rotate(-45deg); /* الميلان */
+331 |   top: 30px;
+332 |   left: -50px;
+333 |   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+334 |   font-size: 15px;
+335 | }
+336 | 
+337 | @media (max-width: 576px) {
+338 |   .ribbon {
+339 |     width: 100px;
+340 |     height: 100px;
+341 |   }
+342 | 
+343 |   .ribbon span {
+344 |     width: 140px;
+345 |     font-size: 12px;
+346 |     top: 25px;
+347 |     left: -40px;
+348 |   }
+349 | }
+350 | 
+351 | .custom-carousel-indicators-primary {
+352 |   height: 70px !important;
+353 |   width: 70px !important;
+354 |   opacity: 1 !important;
+355 |   border: 2px solid #ddd !important;
+356 |   margin: 0 !important;
+357 |   margin-left: 5px !important;
+358 | }
+359 | 
+360 | .custom-carousel-indicators {
+361 |   top: 235px;
+362 |   right: 41%;
+363 |   
+364 | }
+365 | 
+366 | .custom-carousel-indicators-primary.active {
+367 |   
+368 |   border-color: #007bff !important;
+369 |   opacity: 1 !important;
+370 | }
+371 | 
+372 | #carousel-featured .carousel-control-prev .fa-chevron-right,
+373 | #carousel-featured .carousel-control-next .fa-chevron-left {
+374 |   color: #868686;
+375 |   font-size: 38px;
+376 | }
+377 | 
+378 | #carousel-featured .carousel-control-prev, #carousel-featured .carousel-control-next {
+379 |   width: 50px;
+380 |   height: 50px;
+381 |   background-color: rgba(255, 255, 255, 0.8);
+382 |   border-radius: 50%;
+383 |   top: 50%;
+384 |   transform: translateY(-50%);
+385 | }
+386 | 
+387 | #store-features {
+388 |   box-shadow: 0 0 15px #EEF0EA;
+389 |   background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+390 |   background-repeat: no-repeat;
+391 |   position: relative;
+392 |   top: -3px;
+393 |   background-size: auto 60%;
+394 |   background-color: #FFF;
+395 |   padding-bottom: 35px;
+396 |   padding-top: 25px;
+397 |   background-position: -10px -20px;
+398 |   
+399 | }
+400 | 
+401 | .heading {
+402 |   font-size: 24px;
+403 |   margin-bottom: 25px;
+404 | }
+405 | 
+406 | .custom-thumbnail img {
+407 |   height: 250px;
+408 |   width: 100%;
+409 |   max-width: 250px;
+410 | }
+411 | 
+412 | .custom-thumbnail {
+413 |   border: 2px solid #EEF0EA;
+414 |   padding: 8px;
+415 |   cursor: pointer;
+416 |   margin-bottom: 50px;
+417 | }
+418 | 
+419 | .custom-thumbnail:hover {
+420 |   border-color: #53CCD7;
+421 | }
+422 | 
+423 | .custom-thumbnail h4 {
+424 |   font-size: 18px;
+425 | }
+426 | 
+427 | .price {
+428 |   color: #4C8055;
+429 |   
+430 | }
+431 | 
+432 | .rating {
+433 |   color: #c2c2c2;
+434 | }
+435 | 
+436 | .rating .active {
+437 |   color: #f3af41;
+438 | }
+439 | 
+440 | .overlay {
+441 |   position: absolute;
+442 |   background-color: rgba(83, 204, 215, 0.5);
+443 |   height: 250px;
+444 |   width: calc(100% - 16px);
+445 |   display: flex;
+446 |   justify-content: center;
+447 |   align-items: center;
+448 |   opacity: 0;
+449 |   transition: all 0.3s ease;
+450 | 
+451 | }
+452 | 
+453 | .overlay:hover {
+454 |   opacity: 1;
+455 | }
+456 | 
+457 | .add-to-cart-btn {
+458 |   color: #53ccd7;
+459 |   background-color: #fff;
+460 |   font-weight: 700;
+461 | }
+462 | 
+463 | .custom-thumbnail .sale {
+464 |  position: absolute;
+465 |   top: 10px;
+466 |   left: 16px;
+467 |   background-color: #e53935;
+468 |   color: white;
+469 |   font-size: 11px;
+470 |   font-weight: bold;
+471 |   padding: 5px 10px;
+472 |   border-radius: 4px;
+473 |   line-height: 1.2;
+474 |   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+475 | }
+476 | 
+477 | 
+478 | .custom-thumbnail .sale::after {
+479 |   content: "-";
+480 | }
+481 | .custom-carousel-indicators2{
+482 |   bottom: -20px !important;
+483 |   list-style: none;
+484 |   
+485 | }
+486 | .custom-carousel-indicators2>li {
+487 |   width: 13px !important;
+488 |   height: 13px !important;
+489 |   margin: 2px !important;
+490 |   background-color: #dbdbdb !important;
+491 | }
+492 | 
+493 | .custom-carousel-indicators2>li.active {
+494 |   background-color: #565655 !important;
+495 | } 
+496 | 
+497 | .panel {
+498 |   border: 4px solid #EEF0EA;
+499 |   padding: 20px;
+500 | }
+501 | 
+502 | .panel h4,
+503 | .panel .price {
+504 |   font-size: 130%;
+505 |   margin-bottom: 15px;
+506 |   margin-top: 0;
+507 | }
+508 | 
+509 | .custom-text-muted {
+510 |   color: #A9A9A9;
+511 | }
+512 | 
+513 | .arrow-btn {
+514 |   background-color: #fff;
+515 |   color: #868686;
+516 |   border: 1px solid #EBEBEE;
+517 |   border-radius: 2px;
+518 |   padding: 5px 10px;
+519 |   font-size: 12px;
+520 | }
+521 | 
+522 | #row-brands h3.heading {
+523 |   border-top: 1px solid  #EEF0EA;
+524 |   padding-top: 25px;
+525 | }
+526 | 
+527 | 
+528 | .brands-logo {
+529 |     max-height: 40px;
+530 |     width: auto;
+531 |     object-fit: contain;
+532 | }
+533 | 
+534 | #brand-logos {
+535 |   background-color: #dbeefa;
+536 |   padding: 25px 0;
+537 |   color: #555555;
+538 | }
+539 | 
+540 | #brand-logos img {
+541 |   margin-left: 25px;
+542 |   margin-right: 25px;
+543 |   max-width: 100px;
+544 |   max-height: 100px;
+545 | }
+546 | 
+547 | #footer-nav {
+548 |   background-color: #1f1e1f;
+549 |   padding: 50px 0 40px;
+550 |   background-image: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
+551 | }
+552 | 
+553 | .footer-logo-wrapper {
+554 |   display: flex;
+555 |   justify-content: center;
+556 |   align-items: center;
+557 | }
+558 | 
+559 | .footer-logo-wrapper .reveal-text {
+560 |   animation: none !important;
+561 |   opacity: 1 !important;
+562 |   visibility: visible !important;
+563 |   transform: none !important;
+564 | }
+565 | 
+566 | `, ""]);
+567 | // Exports
+568 | /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+569 | 

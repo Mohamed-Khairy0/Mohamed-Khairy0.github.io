@@ -1,0 +1,49 @@
+Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):
+HookWebpackError: Module build failed (from ./node_modules/css-loader/dist/cjs.js):
+
+SyntaxError
+
+(592:3) E:\Fornt-End\Tebas\src\css\style.css Unknown word pa
+
+ [90m 590 | [39m  border-bottom-left-radius[33m:[39m 3px[33m;[39m
+ [90m 591 | [39m  font-size[33m:[39m 14px[33m;[39m
+[1m[31m>[39m[22m[90m 592 | [39m  pa
+ [90m     | [39m  [1m[31m^[39m[22m
+ [90m 593 | [39m[33m}[39m
+
+    at tryRunOrWebpackError (E:\Fornt-End\Tebas\node_modules\webpack\lib\HookWebpackError.js:86:9)
+    at __webpack_require_module__ (E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5480:12)
+    at __webpack_require__ (E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5427:18)
+    at E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5514:20
+    at symbolIterator (E:\Fornt-End\Tebas\node_modules\neo-async\async.js:3485:9)
+    at done (E:\Fornt-End\Tebas\node_modules\neo-async\async.js:3527:9)
+    at Hook.eval [as callAsync] (eval at create (E:\Fornt-End\Tebas\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (E:\Fornt-End\Tebas\node_modules\tapable\lib\Hook.js:18:14)
+    at E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5402:43
+    at symbolIterator (E:\Fornt-End\Tebas\node_modules\neo-async\async.js:3482:9)
+-- inner error --
+Error: Module build failed (from ./node_modules/css-loader/dist/cjs.js):
+
+SyntaxError
+
+(592:3) E:\Fornt-End\Tebas\src\css\style.css Unknown word pa
+
+ [90m 590 | [39m  border-bottom-left-radius[33m:[39m 3px[33m;[39m
+ [90m 591 | [39m  font-size[33m:[39m 14px[33m;[39m
+[1m[31m>[39m[22m[90m 592 | [39m  pa
+ [90m     | [39m  [1m[31m^[39m[22m
+ [90m 593 | [39m[33m}[39m
+
+    at Object.<anonymous> (E:\Fornt-End\Tebas\node_modules\css-loader\dist\cjs.js!E:\Fornt-End\Tebas\src\css\style.css:1:7)
+    at E:\Fornt-End\Tebas\node_modules\webpack\lib\javascript\JavascriptModulesPlugin.js:518:10
+    at Hook.eval [as call] (eval at create (E:\Fornt-End\Tebas\node_modules\tapable\lib\HookCodeFactory.js:19:10), <anonymous>:7:1)
+    at Hook.CALL_DELEGATE [as _call] (E:\Fornt-End\Tebas\node_modules\tapable\lib\Hook.js:14:14)
+    at E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5482:39
+    at tryRunOrWebpackError (E:\Fornt-End\Tebas\node_modules\webpack\lib\HookWebpackError.js:81:7)
+    at __webpack_require_module__ (E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5480:12)
+    at __webpack_require__ (E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5427:18)
+    at E:\Fornt-End\Tebas\node_modules\webpack\lib\Compilation.js:5514:20
+    at symbolIterator (E:\Fornt-End\Tebas\node_modules\neo-async\async.js:3485:9)
+
+Generated code for E:\Fornt-End\Tebas\node_modules\css-loader\dist\cjs.js!E:\Fornt-End\Tebas\src\css\style.css
+1 | throw new Error("Module build failed (from ./node_modules/css-loader/dist/cjs.js):\n\nSyntaxError\n\n(592:3) E:\\Fornt-End\\Tebas\\src\\css\\style.css Unknown word pa\n\n \u001b[90m 590 | \u001b[39m  border-bottom-left-radius\u001b[33m:\u001b[39m 3px\u001b[33m;\u001b[39m\n \u001b[90m 591 | \u001b[39m  font-size\u001b[33m:\u001b[39m 14px\u001b[33m;\u001b[39m\n\u001b[1m\u001b[31m>\u001b[39m\u001b[22m\u001b[90m 592 | \u001b[39m  pa\n \u001b[90m     | \u001b[39m  \u001b[1m\u001b[31m^\u001b[39m\u001b[22m\n \u001b[90m 593 | \u001b[39m\u001b[33m}\u001b[39m\n");
